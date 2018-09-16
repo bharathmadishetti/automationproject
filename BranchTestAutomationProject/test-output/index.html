@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-BranchTestAutomation">
+              <span class="suite-name border-failed">BranchTestAutomation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-BranchTestAutomation">
+                    <span>D:\Bharath\Selenium Training\manish\workspace\BranchTestAutomationProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-BranchTestAutomation">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-BranchTestAutomation">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-BranchTestAutomation">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-BranchTestAutomation">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-BranchTestAutomation">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-BranchTestAutomation">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-BranchTestAutomation" class="hide-methods failed suite-BranchTestAutomation"> (hide)</a> <!-- hide-methods failed suite-BranchTestAutomation -->
+                      <a href="#" panel-name="suite-BranchTestAutomation" class="show-methods failed suite-BranchTestAutomation"> (show)</a> <!-- show-methods failed suite-BranchTestAutomation -->
+                    </span>
+                    <div class="method-list-content failed suite-BranchTestAutomation">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BranchTestAutomation" title="tests.AutomationTests" hash-for-method="verifyEmployeeInfoInAllAndOtherTabs">verifyEmployeeInfoInAllAndOtherTabs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-BranchTestAutomation -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-BranchTestAutomation" class="hide-methods passed suite-BranchTestAutomation"> (hide)</a> <!-- hide-methods passed suite-BranchTestAutomation -->
+                      <a href="#" panel-name="suite-BranchTestAutomation" class="show-methods passed suite-BranchTestAutomation"> (show)</a> <!-- show-methods passed suite-BranchTestAutomation -->
+                    </span>
+                    <div class="method-list-content passed suite-BranchTestAutomation">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BranchTestAutomation" title="tests.AutomationTests" hash-for-method="verifyRequestADemoButtonFunctionality">verifyRequestADemoButtonFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BranchTestAutomation" title="tests.AutomationTests" hash-for-method="verifyViewOurCustomersButtonFunctionality">verifyViewOurCustomersButtonFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-BranchTestAutomation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-BranchTestAutomation" class="panel BranchTestAutomation">
+          <div class="suite-BranchTestAutomation-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.AutomationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEmployeeInfoInAllAndOtherTabs">
+                  </a> <!-- verifyEmployeeInfoInAllAndOtherTabs -->
+                  <span class="method-name">verifyEmployeeInfoInAllAndOtherTabs</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Verify that number of employees match between All tab and sum of other tabs. expected [119] but found [124],
+	Verify that employee names and departments are listed correctly between All tab and Department tabs for the Employee Name:=AMANDA GRADY Department:=Partner Growth expected [false] but found [true],
+	Verify that employee names and departments are listed correctly between All tab and Department tabs for the Employee Name:=AMANDA VANDIVER Department:=Partner Growth expected [false] but found [true],
+	Verify that employee names and departments are listed correctly between All tab and Department tabs for the Employee Name:=MARK WEILER Department:=Engineering expected [false] but found [true],
+	Verify that employee names and departments are listed correctly between All tab and Department tabs for the Employee Name:=VATSAL BAJPAI Department:=Engineering expected [false] but found [true],
+	Verify that employee names and departments are listed correctly between All tab and Department tabs for the Employee Name:=YEN HOANG Department:=Engineering expected [false] but found [true]
+	at tests.AutomationTests.verifyEmployeeInfoInAllAndOtherTabs(AutomationTests.java:117)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BranchTestAutomation-class-failed -->
+          <div class="suite-BranchTestAutomation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AutomationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRequestADemoButtonFunctionality">
+                  </a> <!-- verifyRequestADemoButtonFunctionality -->
+                  <span class="method-name">verifyRequestADemoButtonFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyViewOurCustomersButtonFunctionality">
+                  </a> <!-- verifyViewOurCustomersButtonFunctionality -->
+                  <span class="method-name">verifyViewOurCustomersButtonFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BranchTestAutomation-class-passed -->
+        </div> <!-- panel BranchTestAutomation -->
+        <div panel-name="test-xml-BranchTestAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Bharath\Selenium Training\manish\workspace\BranchTestAutomationProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;-1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;BranchTestAutomation&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Automation Build Acceptance Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.AutomationTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Automation Build Acceptance Test --&gt;
+&lt;/suite&gt; &lt;!-- BranchTestAutomation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-BranchTestAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for BranchTestAutomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Automation Build Acceptance Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-BranchTestAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for BranchTestAutomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-BranchTestAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for BranchTestAutomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_BranchTestAutomation');
+function tableData_BranchTestAutomation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyRequestADemoButtonFunctionality')
+data.setCell(0, 2, 'tests.AutomationTests')
+data.setCell(0, 3, 181304);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyEmployeeInfoInAllAndOtherTabs')
+data.setCell(1, 2, 'tests.AutomationTests')
+data.setCell(1, 3, 56187);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyViewOurCustomersButtonFunctionality')
+data.setCell(2, 2, 'tests.AutomationTests')
+data.setCell(2, 3, 9936);
+window.suiteTableData['BranchTestAutomation']= { tableData: data, tableDiv: 'times-div-BranchTestAutomation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-BranchTestAutomation">
+              </div> <!-- times-div-BranchTestAutomation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-BranchTestAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for BranchTestAutomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyRequestADemoButtonFunctionality</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><font color='green'>'Request a Demo' page is displayed after clicking on 'Request a Demo' button in Home page.</font></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyViewOurCustomersButtonFunctionality</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><font color='green'>'Partners' page is displayed after clicking on 'View our Customers' button in Home page.</font></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyEmployeeInfoInAllAndOtherTabs</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Employees count in 'All' tab is :=119</span>
+                <span class="reporter-method-output">Employees count in 'Other' department tabs is :=124</span>
+                <span class="reporter-method-output"><font color='red'>Emloyee count is not matched in 'All' tab vs 'Other' tabs, allTabEmployeeCount:=124 and otherTabEmployeeCount:=119</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=ALEX AUSTIN Department:=Co-Founder / CEO is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=MADA SEGHETE Department:=Co-Founder / Marketing is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=MIKE MOLINET Department:=Co-Founder / COO is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=DMITRI GASKIN Department:=Co-Founder / Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=AARON LOPEZ Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=ADAM MICHALSKI Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=ADITI VERMA Department:=Data is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=AGRIM NIGAM Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=AHMED NAWAR Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=ALEX BAUER Department:=Marketing is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='red'>All tab Employee Name:=AMANDA GRADY Department:=Partner Growth is not found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=AMANDA MASSEY Department:=Marketing is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='red'>All tab Employee Name:=AMANDA VANDIVER Department:=Partner Growth is not found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=AMARJIT SINGH Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=AMIT TYAGI Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=AMRUTA DESHMUKH Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=ANJALI KUMAR Department:=Marketing is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=ANKIT SAXENA Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=ANN MASSOUD Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=ANUP OSTWAL Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=BARRY KEANE Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=BRIAN CHANG Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=BRIAN KRING Department:=Data is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=BRIAN LAW Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=BRIAN SPRINGER Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=BURHAN HAILE Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=CAT PEREZ Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=CATHLEEN HARTGE Department:=Operations is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=CHRISTOF JARITZ Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=CHRISTOPHER CARVALHO Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=CLAY JONES Department:=Marketing is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=COREY FRICKEL Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=CYNTHIA CHIANG Department:=Marketing is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=DANIA REED Department:=Recruiting is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=DANNY GAMBOA Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=DAVID WESTGATE Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=DERRICK STATEN Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=DEVASMITHA REDDY Department:=Marketing is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=EDWARD SMITH Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=EMRE AKSOY Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=ERIC GLOVER Department:=Data is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=ERIC STEIN Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=EVAN KAPLAN Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=EVGENIY (GENE) HAYDAMAKHA Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=FELIPE NOGUEROL Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=FELIX VIALVA Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=GABRIELLE SALGADO Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=GARY MACDONOUGH Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=GAUTIER DESSE Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=GERRIT YNTEMA Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=GOVIND KAVATURI Department:=Marketing is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=HARISH CHOUDHARY Department:=Data is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=HEMANTH SRIDHARA ASHALATHA Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=HERMAN NG Department:=Operations is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=HUBERT CHEN Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=IAN CHAN Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=IGOR GONEBNYY Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=JACKIE CHOI Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=JAKE ADAMS Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=JARED BEN-JAMIN Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=JAVERIA KHAN Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=JIM TOMCZYK Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=JOHN GILHULY Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=JON NESETH Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=JONAS BAUER Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=JOSEPH GERAGHTY Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=JUD DAGNALL Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=JUAN ANDRADE Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=JYOTSNA JAYARAMAN Department:=Data is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=KAN YU Department:=Data is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=KELSEY POLEYEFF Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=KRISTY WENTZEL Department:=Operations is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=LILA STROMINGER Department:=Product is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=MADELINE BRONSTEIN Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=MARC RITTER Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='red'>All tab Employee Name:=MARK WEILER Department:=Engineering is not found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=MARSHALL CLARK Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=MATEJ HORAVA Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=MAURO SINCHE Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=MEGAN BEATY Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=MICHAEL HINDMAN Department:=Marketing is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=MICHAEL KWON Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=MICHAEL NORDBERG Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=MICHELLE LERNER Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=MINESH KHER Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=MONICA CUYONG Department:=Recruiting is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=NATALI RODRIGUEZ Department:=Product is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=NAVID ZOLFGHARI Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=NICOLAS BONNET Department:=Product is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=NIDHI MIGLANI Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=NEIL MA Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=PATRICK VAN DER STEEN Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=PETER LABERGE Department:=Marketing is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=PRASANNA RAMANUJAM Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=RAMSEY PRYOR Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=RAHUL SWAMY Department:=Partner growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=RICARDO ARAVENA Department:=Data is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=RUBIN SINGH Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=RUI CHEN Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=RUTH M. PARDEE Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=RYAN CHURAMAN Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=SAHIL VERMA Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=SAMIT SAWANT Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=SARAH JIMENEZ Department:=Operations is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=SCOTT DINN Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=SHELBY SIMS Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=SHUBHAM MISHRA Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=STACY OSORIO Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=STAS ZHUKOVSKIY Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=STEPHEN DANIELS Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=TAE KIM Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=TAREK TANTAWY Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=THIBAUT SOUYRIS Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=THOMAS QUINLAN Department:=Partner growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=TIM CHINGOS Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=TRACY TRUONG Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='red'>All tab Employee Name:=VATSAL BAJPAI Department:=Engineering is not found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=VIKRAM PRAKASH Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=WILL BOOZ Department:=Partner Growth is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=WILL LINDEMANN Department:=Product is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=XIAN CHEN Department:=Marketing is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='red'>All tab Employee Name:=YEN HOANG Department:=Engineering is not found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=YURY USTSINCHYK Department:=Engineering is found in other tabs.</font></span>
+                <span class="reporter-method-output"><font color='green'>All tab Employee Name:=ZEESHA CURRIMBHOY Department:=Engineering is found in other tabs.</font></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-BranchTestAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-BranchTestAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AutomationTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyEmployeeInfoInAllAndOtherTabs</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">56192 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyRequestADemoButtonFunctionality</span>
+                <span class="method-start">56912 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">238217 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyViewOurCustomersButtonFunctionality</span>
+                <span class="method-start">238866 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">248803 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

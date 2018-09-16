@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [BranchTestAutomation]">
+  <test verbose="0" name="Automation Build Acceptance Test(failed)">
+    <classes>
+      <class name="tests.AutomationTests">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="verifyEmployeeInfoInAllAndOtherTabs"/>
+        </methods>
+      </class> <!-- tests.AutomationTests -->
+    </classes>
+  </test> <!-- Automation Build Acceptance Test(failed) -->
+</suite> <!-- Failed suite [BranchTestAutomation] -->

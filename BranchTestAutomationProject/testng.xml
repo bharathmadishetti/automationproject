@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BranchTestAutomation">
+  <test thread-count="5" name="Automation Build Acceptance Test">
+    <classes>
+      <class name="tests.AutomationTests"/>
+    </classes>
+  </test> <!-- Automation Build Acceptance Test -->
+</suite> <!-- BranchTestAutomation -->

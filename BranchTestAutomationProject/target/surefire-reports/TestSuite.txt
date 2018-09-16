@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 216.297 sec <<< FAILURE! - in TestSuite
+verifyEmployeeInfoInAllAndOtherTabs(tests.AutomationTests)  Time elapsed: 54.228 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	Verify that number of employees match between All tab and sum of other tabs. expected [119] but found [124],
+	Verify that employee names and departments are listed correctly between All tab and Department tabs for the Employee Name:=AMANDA GRADY Department:=Partner Growth expected [false] but found [true],
+	Verify that employee names and departments are listed correctly between All tab and Department tabs for the Employee Name:=AMANDA VANDIVER Department:=Partner Growth expected [false] but found [true],
+	Verify that employee names and departments are listed correctly between All tab and Department tabs for the Employee Name:=MARK WEILER Department:=Engineering expected [false] but found [true],
+	Verify that employee names and departments are listed correctly between All tab and Department tabs for the Employee Name:=VATSAL BAJPAI Department:=Engineering expected [false] but found [true],
+	Verify that employee names and departments are listed correctly between All tab and Department tabs for the Employee Name:=YEN HOANG Department:=Engineering expected [false] but found [true]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at tests.AutomationTests.verifyEmployeeInfoInAllAndOtherTabs(AutomationTests.java:117)
+
