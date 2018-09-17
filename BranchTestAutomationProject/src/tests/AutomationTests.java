@@ -118,7 +118,7 @@ public class AutomationTests {
 	}
 	
 	
-	@Test(priority=2)	
+	@Test(priority=3)	
 	public void verifyViewOurCustomersButtonFunctionality() {
 		SoftAssert softAssertion= new SoftAssert();		
 		driver=Utility.getBrowser();
