@@ -85,8 +85,8 @@ public class AutomationTests {
 		int allTabEmployeeCount=allTabEmployeesList.size();
 		int otherTabEmployeeCount=otherTabEmployeesList.size();
 		//Verify that number of employees match between All tab and sum of other tabs.
-		Reporter.log("Employees count in 'All' tab is :="+otherTabEmployeeCount);
-		Reporter.log("Employees count in 'Other' department tabs is :="+allTabEmployeeCount);
+		Reporter.log("Employees count in 'All' tab is :="+allTabEmployeeCount);
+		Reporter.log("Employees count in 'Other' department tabs is :="+otherTabEmployeeCount);
 		if(allTabEmployeeCount==otherTabEmployeeCount) {
 			Reporter.log("Emloyee count is matched in 'All' tab vs 'Other' tabs, allTabEmployeeCount:="+allTabEmployeeCount+" and otherTabEmployeeCount:="+otherTabEmployeeCount);		
 		}
